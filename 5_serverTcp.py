@@ -30,3 +30,5 @@ while(1):
     break
 file.close()
 conn.close()
+
+#for opening 2 idles n shells use in terminal "open -n -a "IDLE" "(2 times same thing) or click two times the idle applcations
