@@ -3,7 +3,7 @@ st = ""
 serverPort = 12000
 serverSocket = socket(AF_INET,SOCK_DGRAM)
 serverSocket.bind(("127.0.0.1",serverPort))
-files = ['file1.txt','file2.txt','file3.txt','file4.txt','file5.txt'] #create these files on your desktop
+files = ['file1.txt','file2.txt','file3.txt','file4.txt','file5.txt'] #create these files on your desktop and write text in it
 print("server is ready to receive")
 while 1:
   sentence,clientAddress = serverSocket.recvfrom(2048)
