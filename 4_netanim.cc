@@ -80,3 +80,17 @@ Simulator::Run();
 Simulator::Destroy();
 return 0;
 }
+
+/* output:
+~/ns-allinone-3.29/ns-3.29$ ./waf --run scratch/4_netanim
+.
+.
+(output)
+.
+.
+cd ../
+cd netanim-3.108/
+./Netanim
+(choose anim_sec.xml(or some xml file)file from ns3.09 folder)
+(see output on the screen movements of packets)
+*/
