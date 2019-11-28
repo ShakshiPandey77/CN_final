@@ -104,5 +104,5 @@ return 0;
 }
 
 /* output: (save file in ns-3.29 in scratch)
-~/ns-allinone-3.29/ns-3.29$ ./waf --run scratch/1_flowmonitor.cc 
+~/ns-allinone-3.29/ns-3.29$ ./waf --run scratch/1_flowmonitor
 */
